@@ -1,3 +1,21 @@
 ## It's a like a startup inside a startup, Topaz
 
-undefined
+At Google, I knew a great engineer (let's call them Topaz) who, after working on a bunch of different teams and being pretty successful at what they did, decided to join the hot new team that was hiring like crazy. It was pretty exciting for them, they told me many times. For me, I've been in some of those situations where you're anticipating something new in your life so much you have the most vivid dreams about it actually happening. As if it were actually happening now. It was like that for this person. 
+
+Now this was part of Google was _hot_ at the time; it was in the realm of all things social when Google was trying to do that. It was breathtaking how all-in Google went on the social stuff so quickly, and there was a buzzy aura around the teams who worked on it. The building they were in had restricted access (because reasons), still a relatively rare thing at that time, and its own not-so-secret restaurant. 
+
+[![](https://cdn.hashnode.com/res/hashnode/image/upload/v1619326947150/lJOVXnzBk.jpeg)](https://storage.googleapis.com/discobubble-quiz/IMG_20190407_095918.jpg)
+
+So, the big day came, and Topaz joined the new team (let's call it the Flingwheel team), and had their first 1:1 with their manager,  Borantz. All good fictional names should end with a z. Apparently. Something was just _off_ about that from the start. The manager was charming, and nice - a very sociable and amenable guy, but there was a weird disconnect. It felt like the conversation was one-way. Topaz would talk about what they were looking to learn about and develop on the team, and Borantz would nod and talk about how cool this team was because it was a startup within a startup or something like that. 
+
+Topaz wasn't sure if it was just their imagination. A single 1:1 isn't enough, so Topaz paid close attention the next few times they met with Borantz. After a few weeks on the team, Topaz had realized that there was a huge opportunity here - they wanted to hone their frontend web development skills, and this project's frontend was moving slowly and jeopardizing the whole project.  Topaz thought this would be an excellent thing to talk to Borantz about, and they did. And Borantz talked about how cool the project was and how cool this team was because it was a startup with a startup, and hey, Topaz, could you do some backend stuff because that's what you're good at right?
+
+Wait, what?
+
+It turns out that Topaz's good friend Potaz happened to have worked with Topaz before about 87 years ago (er, slightly exaggerating here) knew of Topaz's legendary backend skills. Skills which in actuality amounted to a couple of years spent fiddling around with servlets on a shaky and not too reliable server somewhere in the back of an office. Potaz also worked on Flingwheel, and had recommended Topaz to Borantz, and had emphasized Topaz's aforementioned legendary backend skills.
+
+The cycle of dysfunctional 1:1s went on, and Topaz noticed that many other things were dysfunctional about the team. All of a sudden, out of nowhere, the team ruptured into two parts, the Flingwheel team were now doing something that was decidedly less interesting than the original idea, and a new offshoot team went on to build.. well... something that you probably use now. Topaz was stuck on the Flingwheel team, and pretty unhappy at this point, since their job consisted chiefly of converting protocol buffer messages to other protocol buffer messages and writing unit tests for said rote conversion code.
+
+The kicker came when one day, out of the blue, Topaz had a random meeting with Stanz, the director of all backend projects in his part of Google. Topaz's legendary backend skills were needed on the core backend team, and a transfer and reorg were imminent, and wasn't that exciting, Topaz? What's that? You want to be a full stack engineer? You don't actually like backend? Your manager hasn't actually mentioned any of this to you? Oh yea, the Flingwheel team was cool, and it was like a startup within a startup or something like that, and now you're going to be converting protocol buffers back and forth until the end of time, dear Topaz.
+
+Topaz was sad for a bit, and quit, and then found something much more fun to work on, and a manager who listened to them.
