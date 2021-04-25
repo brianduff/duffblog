@@ -2,9 +2,6 @@
 
 The Whisper project (which became [Nearby](https://developers.google.com/nearby)) got started as part of the Google+ org. The Google+ team sat in the same building as Larry Page, and we'd often see him in his office or walking around the building.
 
-[![](https://cdn.hashnode.com/res/hashnode/image/upload/v1619326934129/EkEoSVY5y.jpeg)](https://storage.googleapis.com/discobubble-quiz/IMG_20160128_105658.jpg)  
-_Google building 1900 to the right_
-
 One day, a few of my teammates and I were standing in line at Cloud Cafe, in the restricted part of building 1900 where the Google+ team sat. Right in front of us in the line was none other than Larry Page himself. One of the engineers on the team struck up a conversation with him, and Larry asked us how Whisper was going. We hadn't launched anything yet, and were deeply in the midst of doing crazy cool things with ultrasound.
 
 My teammate answered quite honestly that it was hard, and it was taking much longer than we expected to get it to a dogfoodable and eventually launchable state. Larry asked him why - what made it hard? Probably a fairly innocuous, polite question, but coming from the CEO and founder of Google, it sort of takes on an extra weight. We tried our best within 1.5 minutes to explain how a variety of unexpected complications contributed to delay and difficulty.
