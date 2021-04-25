@@ -54,23 +54,23 @@ It does have the downside of still using a large amount of heap for some period 
 
 The 600ms initial disk read time seems high. This file clocks in at 37MB, under ideal conditions on a 500 MB/s SSD, we'd expect to be able to read it in under 100ms. Indeed that matches what we see if we use dd to measure read performance:
 
-```lang=bash
-    # Purge disk buffers
-    $ sudo purge
+```
+# Purge disk buffers
+$ sudo purge
     
-    # First read is about 200ms
-    $ time dd if=target-info.json of=/dev/null bs=8k
-    4740+1 records in
-    4740+1 records out
-    38837604 bytes transferred in 0.019201 secs (2022682285 bytes/sec)
-    dd if=target-info.json of=/dev/null bs=8k  0.00s user 0.01s system 67% cpu 0.023 total
+# First read is about 200ms
+$ time dd if=target-info.json of=/dev/null bs=8k
+4740+1 records in
+4740+1 records out
+38837604 bytes transferred in 0.019201 secs (2022682285 bytes/sec)
+dd if=target-info.json of=/dev/null bs=8k  0.00s user 0.01s system 67% cpu 0.023 total
     
-    # Second read, buffered in the disk cache, is about 100ms
-    $ time dd if=target-info.json of=/dev/null bs=8k
-    4740+1 records in
-    4740+1 records out
-    38837604 bytes transferred in 0.010184 secs (3813571762 bytes/sec)
-    dd if=target-info.json of=/dev/null bs=8k  0.00s user 0.01s system 92% cpu 0.013 total
+# Second read, buffered in the disk cache, is about 100ms
+$ time dd if=target-info.json of=/dev/null bs=8k
+4740+1 records in
+4740+1 records out
+38837604 bytes transferred in 0.010184 secs (3813571762 bytes/sec)
+dd if=target-info.json of=/dev/null bs=8k  0.00s user 0.01s system 92% cpu 0.013 total
 ```
 
 We should profile to see why there's such a large discrepancy between ideal and observed read time, but some theories about this:
