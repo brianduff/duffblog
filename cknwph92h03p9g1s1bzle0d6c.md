@@ -1,0 +1,3 @@
+## On shortcuts
+
+undefined
