@@ -10,7 +10,7 @@ But the lack of strong typing is bothersome. I successfully strolled along for a
 
 When it comes to the backend, I oscillate a bit between using Rust+Rocket and Node.js with Express. But recently, I've been poking around increasingly with [Google's Cloud Functions](https://developers.google.com/learn/topics/functions). The out of the box instructions though don't do a very good job of explaining how to get things working with TypeScript (there are some [instructions](https://firebase.google.com/docs/functions/typescript), but they're for Firebase, and it's kind of similar, but different enough that it doesn't quite work if you just use Google Cloud directly. 
 
-I got it working, and thought I'd write it down for posterity.
+It turns out to be relatively easy to set up, so I wrote it down for posterity.
 
 ### Setting up the project
 
