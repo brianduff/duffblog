@@ -1,4 +1,4 @@
-## Cloud Functions with Typescript
+## Cloud Functions with TypeScript
 
 Here's a small (sample that uses TypeScript + Cloud Functions)[https://github.com/brianduff/cloudfunctions].
 
