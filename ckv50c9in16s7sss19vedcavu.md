@@ -114,7 +114,7 @@ It'll churn away for a wee while doing its thing, but after it's done you should
 
 ### Actually using types!
 
-Ok, so far we've got it working end to end with TypeScript, but we didn't actually use types. You don't actually have to, of course, but if you want to, you can be more specific. For example, the `functions-framework` defines a type called `HttpFunction` for cloud functions themselves, and we could write:
+Ok, so far we've got it working end to end with TypeScript, but we didn't actually use types. You don't have to, of course, but if you want to, you can be more specific. For example, the `functions-framework` defines a type called `HttpFunction` for cloud functions themselves, and we could write:
 
 ```typescript
 import { HttpFunction } from '@google-cloud/functions-framework';
