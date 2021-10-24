@@ -1,6 +1,6 @@
 ## Cloud Functions with TypeScript
 
-Here's a small (sample that uses TypeScript + Cloud Functions)[https://github.com/brianduff/cloudfunctions].
+Here's a small  [sample that uses TypeScript + Cloud Functions](https://github.com/brianduff/cloudfunctions) 
 
 I have a complicated relationship with JavaScript. I'm old enough to remember when it first appeared in Netscape Navigator back when the web was truly tiny and everything had a kind of boring gray background, and the days when "Dynamic HTML" started to become a thing. It was awful back then. Truly, terribly awful.
 
@@ -96,7 +96,7 @@ When we deploy this to Google Cloud, it will run `npm ci` to build the project. 
 
 Before deploying, it's a good idea to check that it works with `npm run gcp-build`.
 
-To deploy, you'll need to create a Google Cloud project and enable the APIs - the stuff in the "Before you begin" section in (this document)[https://cloud.google.com/functions/docs/quickstart-nodejs#before-you-begin]. You'll also need to install the (Cloud SDK)[https://cloud.google.com/sdk/docs/install] locally so you can use the `gcloud` command. You'll also need to authorize and select your project using (replace PROJECTNAME):
+To deploy, you'll need to create a Google Cloud project and enable the APIs - the stuff in the "Before you begin" section in [this document](https://cloud.google.com/functions/docs/quickstart-nodejs#before-you-begin). You'll also need to install the [Cloud SDK](https://cloud.google.com/sdk/docs/install) locally so you can use the `gcloud` command. You'll also need to authorize and select your project using (replace PROJECTNAME):
 
 ```bash
 gcloud auth login
